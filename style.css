@@ -1,3 +1,26 @@
 body{
-    background-color: #f3b1ea;
+    background-color: #f3d4ef;
+}
+.image-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.image-card {
+    text-align: center;
+    max-width: 300px;
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.image-card h3 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.2rem;
 }
