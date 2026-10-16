@@ -66,7 +66,7 @@ body{
     font-size: 0.95rem;
     color: #444;
     line-height: 1.5;
-
+    text-align: left;
     width: 100%; 
     
     box-sizing: border-box; 
@@ -75,4 +75,53 @@ body{
     max-height: 250px;
     overflow-y: auto;
     box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.editorial-reflection {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.reflection-container {
+    position: relative;
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #b873a2; 
+}
+
+.big-quote {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    font-size: 6rem;
+    font-family: Georgia, serif;
+    color: rgba(184, 115, 162, 0.15);
+    line-height: 1;
+    pointer-events: none;
+}
+
+.reflection-content h2 {
+    font-size: 1.4rem;
+    color: #444;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.lead-text {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #2c2c2c;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.reflection-content p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 15px;
 }
